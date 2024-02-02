@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/fp.jfif);
+    height: 100%;
+    background-size: cover;
+    background-position: fill;
+    font-family: sans-serif;
+}
+
+.logo img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#container{
+    min-height: 100%;
+}
+
+.loginbox{ 
+    width: 450px;
+    height: 360px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 45px;
+}  
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+.loginbox p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 360px;
+    margin-bottom:20px;
+}
+
+.loginbox input[type="text"]
+{
+    border: none;
+    border-bottom: 2px solid grey;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.loginbox input[placeholder="Enter Email address or Mobile number"]
+{
+    color: white;
+}
+.loginbox button{
+    background: transparent; 
+    text-decoration: none;
+    display: flex;
+    box-align: center;
+    width: 360px;
+    text-align: center;
+    border: black;
+}
+.loginbox #cancel{
+    color: white;
+    background: transparent;
+    width: 360px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    box-align: center;
+    outline: none;
+}
+.loginbox #cancel:hover{
+    background: transparent;
+    border: 2px solid red;
+    color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.loginbox #search, .loginbox .btn{
+    color: white;
+    background: red;
+    text-decoration: none;
+    font-size: 20px;
+    width: 360px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    box-align: center;
+    outline: none;
+}
+.loginbox #search:hover, .loginbox .btn:hover{
+    background: white;
+    color: red;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.loginbox a{
+    text-decoration: none;
+    color:white;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 24px;
+    padding: 8px 25px;
+    
+}
+
+.loginbox a:hover{
+    background: transparent;
+    border: 2px solid red;
+    color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
